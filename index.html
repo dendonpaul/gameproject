@@ -1,1 +1,93 @@
-tfgf
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>Random Game Project</title>
+</head>
+
+<body>
+    <!--Header Menu Start-->
+    <header>
+        <section class="header-container">
+            <div class="logo">Random Games</div>
+            <div class="menulist">
+                <ul class="main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li class="drop-menu">
+                        <a href="#">All Games
+                            <i style="margin-left: 5px;" class="fa-solid fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li><a href="#">Resources </a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <!--Header Menu End-->
+
+    <!--Slider Start-->
+    <section class="container">
+        <div class="slide">
+            <img
+                src="https://images.unsplash.com/photo-1609517904792-bac493d55556?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+        </div>
+        <div class="slide">
+            <img
+                src="https://images.unsplash.com/photo-1609883475382-c4c9378569e5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+        </div>
+        <div class="slide">
+            <img
+                src="https://images.unsplash.com/photo-1610258648552-fe6407d664a1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+        </div>
+        <div class="slide">
+            <img
+                src="https://images.unsplash.com/photo-1610258648552-fe6407d664a1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+        </div>
+        <div class="slide">
+            <img
+                src="https://images.unsplash.com/photo-1611094607507-8c8173e5cf33?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+        </div>
+        <a class="prevbtn" onclick="changeSlide(-1)">❮</a>
+        <a class="nextbtn" onclick="changeSlide(1)">❯</a>
+    </section>
+    <!--Slider End-->
+
+    <!--Our Games section start-->
+    <section id="ourgames">
+        <h1>Our Games</h1>
+        <div class="gamebox">
+            <div class="gamename tictactoe">
+                <h1><a href="#">TicTacToe</a></h1>
+            </div>
+            <div class="gamename memorygame">
+                <h1><a href="#">Memory Game</a></h1>
+            </div>
+            <div class="gamename randomgame">
+                <h1><a href="#">Random Game Generator</a></h1>
+            </div>
+            <div class="gamename"></div>
+        </div>
+    </section>
+    <!--Our Games section end-->
+
+    <!--Suggestions section start-->
+    <section id="suggestions">
+        <input type="text">
+        <button>Add Suggestions</button>
+    </section>
+    <!--Suggestions section end-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

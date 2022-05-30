@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: aquamarine;
+}
+header {
+  padding: 15px 50px;
+}
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  color: coral;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+li,
+li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.menulist .main-menu > li,
+.menulist .main-menu > li > a {
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px;
+  vertical-align: middle;
+}
+.menulist .main-menu > li:hover,
+.menulist .main-menu > li > a:hover {
+  background-color: coral;
+  color: white;
+}
+.menulist .main-menu > li:nth-child(1) {
+  margin-left: 50px;
+}
+
+/* .menulist ul li a::after {
+  content: "\f107";
+} */
+.menulist .main-menu {
+  display: flex;
+}
+.menulist .main-menu li {
+  position: relative;
+}
+
+/*Our Games*/
+#ourgames {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+#ourgames > h1 {
+  font-size: 50px;
+}
+.gamebox {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin-top: 20px;
+}
+.gamename {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition-property: transform;
+  transition-duration: 2s;
+}
+.gamename:hover {
+  transform: scale(1.2);
+}
+
+.tictactoe {
+  background: url("../images/tictactoe.png") rgba(0, 0, 0, 0.559);
+  background-size: contain;
+  background-blend-mode: multiply;
+}
+.memorygame {
+  background: url("../images/memorygame.jpg") rgba(0, 0, 0, 0.559);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
+}
+.randomgame {
+  background: url("../images/randomgame.jpg") rgba(0, 0, 0, 0.559);
+  background-size: contain;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/*Suggestions section*/
+#suggestions {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
