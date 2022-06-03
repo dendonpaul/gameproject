@@ -18,6 +18,10 @@ window.addEventListener("DOMContentLoaded", () => {
     [2, 4, 6],
   ];
 
+  let resetBoard = () => {
+    let board = ["", "", "", "", "", "", "", "", ""];
+  };
+
   async function handleResult() {
     let currentRound = false;
 
@@ -39,6 +43,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (currentRound == true) {
       if (cp === "X") window.alert("O has won");
       else window.alert("X has won");
+      resetBoard();
     }
   }
 
