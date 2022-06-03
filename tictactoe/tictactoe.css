@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+}
+p {
+  color: white;
+  text-align: center;
+}
+.checkbox {
+  display: flex;
+  justify-content: center;
+}
+.tile {
+  border: 1px solid white;
+  height: 150px;
+  width: 150px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  cursor: pointer;
+}
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 50px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
